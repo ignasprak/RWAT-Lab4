@@ -4,16 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: lightpink;
+            border-radius: 15px; /* Rounded edges for body */
+            padding: 10px; /* Add some padding to see the rounded edges */
+        }
+        h1, footer {
+            background-color: lightgreen;
+            border-radius: 10px; /* Rounded edges for h1 and footer */
+            padding: 10px; /* Add some padding to see the rounded edges */
+            margin: 10px;
+            text-align: center;
+        }
+        main {
+            background-color: lightgreen;
+            border-radius: 10px; /* Rounded edges for main */
+            padding: 10px; /* Add some padding to see the rounded edges */
+        }
+
+        button {
+            padding: 10px 20px; /* Add some padding to the buttons */
+            border-radius: 5px; /* Rounded edges for buttons */
+            border: none; /* Remove default border */
+            background-color: blue; /* Button background color */
+            color: white; /* Button text color */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            font-size: 16px; /* Increase font size */
+        }
+        button:hover {
+            background-color: rgb(40, 186, 235); /* Change background color on hover */
+        }
+
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Network and Asynchronous Programming - Lab 4</h1>
     </header>
+
     <main>
-        <p>This is a sample paragraph.</p>
+        <div>
+            <button id="syncbtn"> Synchronous Programming</button>
+            <button id="asyncBtn"> Asynchronous Programming & Callbacks</button>
+            <button id="fetchBtn"> Fetch() & Promises</button>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2024, Ignas</p>
     </footer>
@@ -21,3 +59,4 @@
 </body>
 </html>
 
+<!-- data 1 & 2 are known -->
